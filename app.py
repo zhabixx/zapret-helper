@@ -184,6 +184,8 @@ def check(folder_path):
                                                                                 close_application("cmd.exe")
                                                                             else:
                                                                                 ttk.Label(frm, text=("Ничего не сработало")).grid(column=0, row=0)
+                                                                                close_application("cmd.exe")
+                                                                                close_application("winws.exe")
 
 
 
