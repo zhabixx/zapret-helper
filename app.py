@@ -182,6 +182,9 @@ def check(folder_path):
                                                                             if otvet == 200:
                                                                                 ttk.Label(frm, text=("Работает general (SIMPLE FAKE ALT).bat")).grid(column=0, row=0)
                                                                                 close_application("cmd.exe")
+                                                                            else:
+                                                                                ttk.Label(frm, text=("Ничего не сработало")).grid(column=0, row=0)
+
 
 
 
